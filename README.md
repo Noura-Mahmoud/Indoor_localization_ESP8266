@@ -1,4 +1,4 @@
-# IOT Course Task_1
+# IOT Task_1
 
 ## Team members
 | Name  | Section| BN |
@@ -66,5 +66,6 @@ npm start
 
 ### 2- visit    http://localhost:8090/data?STUDBME1="RSSI_Value"&STUDBME2="RSSI_Value"&iot="RSSI_Value"&CMP_LAB4="RSSI_Value"&CMP_LAB2="RSSI_Value"   to see location predicted from Random Forest Classifier -->
 
-
+----------------------------
+* there is a tracking mode which saves the last 50 readings and show them again 
 
