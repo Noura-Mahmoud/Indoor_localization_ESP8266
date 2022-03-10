@@ -15,6 +15,7 @@ HTTPClient http;
 #define WIFI_SSID "STUDBME2"
 #define WIFI_PASSWORD "BME2Stud"
 
+// if you are gonna use wifi networks , change "StudBME1" to "STUDBME1"
 String saved_networks[] = {"StudBME1", "STUDBME2", "RehabLab", "CMP_LAB1", "CMP_LAB2", "CMP_LAB3", "CMP_LAB4", "Mikasa", "Nada", "Dalia iphone", "Dalialab","YME"};
 
 int flag ;
