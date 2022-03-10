@@ -51,7 +51,7 @@ npm install
 npm start
 ```
 ### existing in hall-way two
-![](/images/hallwaytwo.png)
+![](/images/hallway2.png)
 
 ## 4- To run the mobile app, make sure to be in *reactnative-app1* directory and run following commands
 
