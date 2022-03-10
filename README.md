@@ -11,8 +11,17 @@
 
 # requirements for Create flask APP
 
-## 1- Create virtual Enviironment 
+## 1- Get your own IP address by using cmd of your device and type 
+```
+ipconfig
+```
 
+then make sure to change the existing IP in 'esp.ino', 'App.js' in both folders (reactapp) and (reactnative-app1) 
+
+- Make sure to change SSID and password in the arduino code first
+
+<!-- ## 1- Create virtual Enviironment  -->
+<!-- 
 ```
 pip install virtualenv
 virtualenv venv  
@@ -22,7 +31,7 @@ virtualenv venv
 
 #### In case working with windows activation may fail so check next link
 
-[Activation](https://stackoverflow.com/questions/18713086/virtualenv-wont-activate-on-windows)
+[Activation](https://stackoverflow.com/questions/18713086/virtualenv-wont-activate-on-windows) -->
 
 ## 2- Run main.py to run server 
 
