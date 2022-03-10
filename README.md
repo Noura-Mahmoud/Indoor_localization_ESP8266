@@ -1,3 +1,14 @@
+# IOT Course Task_1
+
+## Team members
+| Name  | Section| BN |
+| ------------- | ------------- |------------- |
+|Dalia Lotfy| 01| 30|
+|Marwa AbdelAal| 02| 23|
+|Nada Ezzat |02 |38  |
+|Noura Mahmoud |02 |39|
+
+
 # requirements for Create flask APP
 
 ## 1- Create virtual Enviironment 
@@ -23,14 +34,28 @@ virtualenv venv
 ```
 python main.py
 ```
-## 3- Make sure to be in React-App directory and run following commands
+## 3- Make sure to be in *reactapp* directory and run following commands
 
 ```
 npm init
 npm install
 npm start
 ```
+### existing in hall-way two
+![](/images/hallwaytwo.png)
+
+## 4- To run the mobile app, make sure to be in *reactnative-app1* directory and run following commands
+
+```
+npm init
+npm install
+npm start
+```
+<!-- 
 ## Testing APIS
 ### 1- visit    http://localhost:8090/mapping   to see location predicted from Random Forest Classifier
 
-### 2- visit    http://localhost:8090/data?STUDBME1="RSSI_Value"&STUDBME2="RSSI_Value"&iot="RSSI_Value"&CMP_LAB4="RSSI_Value"&CMP_LAB2="RSSI_Value"   to see location predicted from Random Forest Classifier
+### 2- visit    http://localhost:8090/data?STUDBME1="RSSI_Value"&STUDBME2="RSSI_Value"&iot="RSSI_Value"&CMP_LAB4="RSSI_Value"&CMP_LAB2="RSSI_Value"   to see location predicted from Random Forest Classifier -->
+
+
+
