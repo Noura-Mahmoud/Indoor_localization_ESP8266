@@ -7,6 +7,8 @@ HTTPClient http;
 
 // please change savedSize as you change the size of savedNetworks[] accordingly
 int savedSize = 12;
+
+// if you are gonna use wifi networks , change "StudBME1" to "STUDBME1"
 String savedNetworks[] = {"StudBME1", "STUDBME2", "RehabLab", "CMP_LAB1", "CMP_LAB2", "CMP_LAB3", "CMP_LAB4", "Dalia_iphone", "Dalialab", "Mikasa", "Nada", "YME"};
 //String savedNetworks[] = {"StudBME1", "STUDBME2", "RehabLab", "CMP_LAB1", "CMP_LAB2", "CMP_LAB3", "CMP_LAB4", "Dalia iphone", "Dalialab", "Mikasa", "Nada", "YME"};
 
@@ -14,16 +16,10 @@ String savedNetworks[] = {"StudBME1", "STUDBME2", "RehabLab", "CMP_LAB1", "CMP_L
 void connect_wifi()
 {
   delay(100);
-//  char * username = "youssef";
-//  char * password = "12345678";
   char * username = "STUDBME2";
   char * password = "BME2Stud";
 //  char * username = "STUDBME1";
 //  char * password = "BME1Stud";
-//  char * username = "Marwa";
-//  char * password = "alipixels";
-//  char * username = "Mikasa";
-//  char * password = "mnnymnny";
   Serial.print("Connecting to Wifi: ");
   Serial.println(username);
   WiFi.begin(username, password);
